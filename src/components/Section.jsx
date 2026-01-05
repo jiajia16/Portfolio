@@ -35,7 +35,7 @@ function Section({ id, eyebrow, title, subtitle, subtitleClass = '', className =
       className={`py-16 md:py-24 ${className}`}
     >
       <div
-        className={`mx-auto flex max-w-6xl flex-col gap-6 px-6 md:px-10 transition duration-700 ${visible ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'
+        className={`mx-auto flex max-w-6xl flex-col gap-6 px-6 md:px-10 transition duration-700 ${visible ? 'translate-y-0 opacity-100' : 'translate-y-0 opacity-100'
           }`}
       >
         {(eyebrow || title || subtitle) && (
