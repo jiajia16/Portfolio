@@ -2,11 +2,13 @@ import { useEffect, useRef, useState } from 'react';
 
 function Section({ id, eyebrow, title, subtitle, subtitleClass = '', className = '', children }) {
   const sectionRef = useRef(null);
-  const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(true);
 
   useEffect(() => {
     const node = sectionRef.current;
-    if (!node) return undefined;
+    if (!node) return;
+
+    if (!('IntersectionObserver' in window)) return;
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -17,12 +19,13 @@ function Section({ id, eyebrow, title, subtitle, subtitleClass = '', className =
           }
         });
       },
-      { threshold: 0.22, rootMargin: '0px 0px -10% 0px' },
+      { threshold: 0.22, rootMargin: '0px 0px -10% 0px' }
     );
 
     observer.observe(node);
     return () => observer.disconnect();
   }, []);
+
 
   return (
     <section
@@ -32,9 +35,8 @@ function Section({ id, eyebrow, title, subtitle, subtitleClass = '', className =
       className={`py-16 md:py-24 ${className}`}
     >
       <div
-        className={`mx-auto flex max-w-6xl flex-col gap-6 px-6 md:px-10 transition duration-700 ${
-          visible ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'
-        }`}
+        className={`mx-auto flex max-w-6xl flex-col gap-6 px-6 md:px-10 transition duration-700 ${visible ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'
+          }`}
       >
         {(eyebrow || title || subtitle) && (
           <header className="max-w-3xl space-y-3">
