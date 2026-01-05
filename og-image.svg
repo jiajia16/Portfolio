@@ -1,0 +1,17 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="630" rx="28" fill="#0b0f14"/>
+<rect x="50" y="50" width="1100" height="530" rx="24" fill="url(#paint0_linear)" stroke="#2ee7d6" stroke-opacity="0.35" stroke-width="2"/>
+<g fill="#E5F9F6" fill-opacity="0.92">
+<text x="120" y="210" font-family="Space Grotesk, Inter, sans-serif" font-size="72" font-weight="700">Jordan Lee</text>
+<text x="120" y="280" font-family="Space Grotesk, Inter, sans-serif" font-size="38" font-weight="500" fill="#2ee7d6">Full Stack Engineer</text>
+<text x="120" y="360" font-family="Inter, sans-serif" font-size="28" font-weight="400" fill="#C8D5E1">Lean, resilient web experiences with a calm sense of speed.</text>
+</g>
+<circle cx="980" cy="180" r="120" fill="#2ee7d6" fill-opacity="0.12"/>
+<circle cx="1020" cy="320" r="80" fill="#2ee7d6" fill-opacity="0.08"/>
+<defs>
+<linearGradient id="paint0_linear" x1="1200" y1="0" x2="0" y2="630" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0E141B"/>
+<stop offset="1" stop-color="#0B0F14"/>
+</linearGradient>
+</defs>
+</svg>
