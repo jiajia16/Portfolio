@@ -1,24 +1,26 @@
 Developer Portfolio
 
-Personal single-page portfolio built with Vite, React, and Tailwind CSS.
+Personal portfolio built with Vite, React, and Tailwind CSS.
 Features a clean UI with dark/light mode, smooth section transitions, and a data-driven project showcase.
 
-- Features
+Features
 
-Responsive single-page layout
+- Responsive single-page layout
 
-Dark and light theme toggle
+- Dark and light theme toggle
 
-Animated section reveals and sticky navigation
+- Animated section reveals and sticky navigation
 
-Modular, data-driven project listings
+- Modular, data-driven project listings
 
-Resume download and external links
+- Resume download and external links
 
-- Tech Stack
+Tech Stack
 
-Frontend: React, Vite
+- Frontend: React, Vite
 
-Styling: Tailwind CSS
+- Styling: Tailwind CSS
 
-Deployment: GitHub Pages
+- Deployment: GitHub Pages
+
+View it live on https://jiajia16.github.io/Portfolio/
