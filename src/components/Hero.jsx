@@ -35,12 +35,8 @@ function Hero({ profile }) {
             {profile.role} • {profile.location}
           </p>
 
-          <h1 className="text-5xl font-extrabold leading-[1.05] text-slate-900 dark:text-white md:text-6xl">
+          <h1 className="text-5xl font-extrabold leading-[1.05] md:text-6xl bg-gradient-to-r from-[#ff7a7a] via-[#ff9f43] to-[#c471ed] bg-clip-text text-transparent">
             I build software that solves real problems
-            {/* <br />
-            <span className="bg-gradient-to-r from-[#ff7a7a] via-[#ff9f43] to-[#c471ed] bg-clip-text text-transparent">
-              and learning along the way!
-            </span> */}
           </h1>
 
           <p className="mx-auto max-w-2xl text-base leading-relaxed text-slate-700 dark:text-slate-300">
