@@ -23,9 +23,9 @@ export const projects = [
       'Kubernetes',
       'JWT Auth',
     ],
-    githubUrl: 'https://github.com/your-username/activity-trail', // replace if needed
-    liveUrl: '', // optional
-    image: activityTrail, // your image import
+    //githubUrl: 'https://github.com/your-username/activity-trail', 
+    liveUrl: '',
+    image: activityTrail,
     featured: true,
 
     problem:
@@ -70,7 +70,7 @@ export const projects = [
       "http"
     ],
 
-    githubUrl: "https://github.com/<your-username>/<your-repo>",
+    //githubUrl: "https://github.com/<your-username>/<your-repo>",
     image: tripplanner,
     featured: true,
 
@@ -116,10 +116,10 @@ export const projects = [
       'Web Server',
       'Sensor Integration'
     ],
-    githubUrl: '', // add if available
-    liveUrl: '', // optional
+    //githubUrl: '',  
+    liveUrl: '',
     caseStudyUrl: '#',
-    image: finance, // add screenshot later if you want
+    image: finance,
     featured: true,
 
     problem:
@@ -158,7 +158,7 @@ export const projects = [
     categoryTags: ["Frontend"],
     techStack: ["HTML", "CSS"],
 
-    githubUrl: "https://github.com/<your-username>/<repo-name>",
+    //githubUrl: "https://github.com/<your-username>/<repo-name>",
     featured: false,
     image: columnbus,
 
@@ -198,9 +198,9 @@ export const projects = [
       "A lightweight drawing application built in C# that allows users to freely sketch using mouse input. The project focuses on handling real-time user interaction, rendering strokes smoothly, and maintaining responsive UI behaviour.",
 
     categoryTags: ["Frontend"],
-    techStack: ["C#", "Windows Forms"], // or WPF if applicable
+    techStack: ["C#", "Windows Forms"],
 
-    githubUrl: "https://github.com/<your-username>/<repo>",
+    //githubUrl: "https://github.com/<your-username>/<repo>",
     liveUrl: "",
     image: doodleImg,
     featured: false,

@@ -119,7 +119,7 @@ function Projects() {
                     </div>
                   )}
 
-                  {(p.githubUrl || p.liveUrl) && (
+                  {/* {(p.githubUrl || p.liveUrl) && (
                     <div className="mt-3 flex flex-wrap gap-3 text-sm">
                       {p.githubUrl && (
                         <a
@@ -142,7 +142,7 @@ function Projects() {
                         </a>
                       )}
                     </div>
-                  )}
+                  )} */}
                 </div>
               ))
             )}

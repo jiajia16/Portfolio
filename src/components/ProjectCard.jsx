@@ -43,9 +43,9 @@ function ProjectCard({ project, onSelect, index = 0 }) {
             ))}
           </div>
           <div className="flex flex-wrap gap-5 text-sm font-semibold text-accent">
-            <a className="hover:underline" href={project.githubUrl} onClick={(e) => e.stopPropagation()} target="_blank" rel="noreferrer">
+            {/* <a className="hover:underline" href={project.githubUrl} onClick={(e) => e.stopPropagation()} target="_blank" rel="noreferrer">
               GitHub
-            </a>
+            </a> */}
           </div>
         </div>
 

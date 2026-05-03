@@ -10,7 +10,6 @@ function ProjectModal({ project, onClose }) {
     };
     window.addEventListener("keydown", handleKeyDown);
 
-    // lock background scroll
     const prev = document.body.style.overflow;
     document.body.style.overflow = "hidden";
 
@@ -21,7 +20,6 @@ function ProjectModal({ project, onClose }) {
   }, [onClose]);
 
   useEffect(() => {
-    // focus panel when opened
     panelRef.current?.focus?.();
   }, [project]);
 
@@ -33,12 +31,12 @@ function ProjectModal({ project, onClose }) {
       role="dialog"
       aria-modal="true"
       aria-label={`${project.title} details`}
-      onMouseDown={onClose} // click outside closes
+      onMouseDown={onClose}
     >
       <div
         ref={panelRef}
         tabIndex={-1}
-        onMouseDown={(e) => e.stopPropagation()} // prevent closing when clicking inside
+        onMouseDown={(e) => e.stopPropagation()}
         className="
           relative w-full max-w-3xl
           max-h-[85vh] overflow-y-auto
