@@ -35,7 +35,8 @@ function Hero({ profile }) {
             {profile.role} • {profile.location}
           </p>
 
-          <h1 className="text-5xl font-extrabold leading-[1.05] md:text-6xl bg-gradient-to-r from-[#ff7a7a] via-[#ff9f43] to-[#c471ed] bg-clip-text text-transparent">
+          <h1 className="text-5xl font-extrabold leading-[1.05] md:text-6xl bg-gradient-to-r from-[#ff7a7a] via-[#ff9f43] to-[#c471ed] 
+          bg-clip-text [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-transparent">
             I build software that solves real problems
           </h1>
 
